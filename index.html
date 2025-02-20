@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header role="banner">
+        <div class="header-container">
+            <div class="logo">
+               <svg width="50" height="50" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="40" fill="#007bff" />
+                    <text x="50" y="55" text-anchor="middle" fill="white" font-size="24">LP</text>
+                </svg>
+            </div>
+            <nav role="navigation">
+                <button class="mobile-menu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Transform Your Business with Our Solution</h1>
+                <p class="hero-subtitle">Experience the future of technology with our innovative platform</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="cta-button primary">Get Started</a>
+                    <a href="#features" class="cta-button secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1739961097716-064cb40a941e?w=800" alt="Product showcase">
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Powerful Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Integration</h3>
+                    <p>Advanced artificial intelligence to automate your workflow</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud Storage</h3>
+                    <p>Secure and scalable cloud-based storage solutions</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer support when you need it</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <h2>Choose Your Plan</h2>
+            <div class="pricing-table">
+                <div class="pricing-tier">
+                    <div class="tier-header">
+                        <h3>Basic</h3>
+                        <p class="price">$9.99<span>/mo</span></p>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Core Features</li>
+                        <li><i class="fas fa-check"></i> 5GB Storage</li>
+                        <li><i class="fas fa-check"></i> Basic Support</li>
+                    </ul>
+                    <a href="#" class="button">Choose Basic</a>
+                </div>
+                <div class="pricing-tier popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="tier-header">
+                        <h3>Standard</h3>
+                        <p class="price">$19.99<span>/mo</span></p>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> All Basic Features</li>
+                        <li><i class="fas fa-check"></i> 50GB Storage</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                    </ul>
+                    <a href="#" class="button">Choose Standard</a>
+                </div>
+                <div class="pricing-tier">
+                    <div class="tier-header">
+                        <h3>Premium</h3>
+                        <p class="price">$29.99<span>/mo</span></p>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> All Standard Features</li>
+                        <li><i class="fas fa-check"></i> Unlimited Storage</li>
+                        <li><i class="fas fa-check"></i> 24/7 Premium Support</li>
+                    </ul>
+                    <a href="#" class="button">Choose Premium</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required aria-required="true"></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Transforming businesses through innovative technology solutions.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Our Product. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="dark-mode-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+</body>
+</html>
